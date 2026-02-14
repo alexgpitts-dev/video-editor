@@ -1,0 +1,23 @@
+[project]
+name = "video-trimmer"
+version = "0.1.0"
+description = "Video trimming application"
+requires-python = ">=3.8"
+dependencies = [
+    "certifi",
+    "charset-normalizer",
+    "colorama",
+    "decorator",
+    "ffmpeg",
+    "idna",
+    "imageio",
+    "imageio-ffmpeg",
+    "moviepy==1.0.3",
+    "numpy",
+    "pillow",
+    "proglog",
+    "python-dotenv",
+    "requests",
+    "tqdm",
+    "urllib3",
+]
